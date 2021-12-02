@@ -6,4 +6,11 @@ var highScore = 50;
 var finalAnswerCheck = 0;
 var checkTimes = 1;
 var viewHighScoreButtonE1 = document.getElementById('view-high-scores');
-var startQuizButtonE1
+var startQuizButtonE1 = document.getElementById('startQuiz');
+var answer1ButtonE1 = document.getElementById('answer1');
+var answer2ButtonE1 = document.getElementById('answer2');
+var answer3ButtonE1 = document.getElementById('answer3');
+var answer4ButtonE1 = document.getElementById('answer4');
+var submitScoreE1 = document.getElementById('submitScore');
+var questionsE1 = document.getElementById('questions');
+var mainDivE1 = document.getElementById('mainDiv');
