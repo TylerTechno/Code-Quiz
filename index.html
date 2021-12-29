@@ -3,46 +3,42 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tyler's Code Quiz!!!</title>
+    <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Code Quiz</title>
 </head>
-
 <body>
     <header>
         <div>
-            <button class="buttonheader" id="view-high-scores">View your high scoresS!</button>
+            <button class="buttonHeader" id="view-high-scores">View High Scores</button>
         </div>
         <div>
-            <p>
-                time: <span id="timeLeft">xxx</span>
-            </p>
+            <p>Time: <span id="timeLeft">xxx</span></p>
         </div>
-
+         
     </header>
-    <div id="mainDiv">
-        <div id="gridContainer">
-            <p id="questionDisplay">Welcome to my code quiz!</p>
-            <p id="finalScoreDisplay"></p>
-            <p id="enterIntials"></p>
-            <textarea id="enterIntialsTextArea"></textarea>
-            <button class="button" id="start-quiz">Start your quiz</button>
-            <button class="button" id="answer 1"></button>
-            <button class="button" id="answer 2"></button>
-            <button class="button" id="answer 3"></button>
-            <button class="button" id="answer 4"></button>
-            <button class="button" id="submitScore"></button>
 
-        </div>
-        <div id="answerCorrectWrongGrid"></div>
-        <p id="answerCorrectWrong"></p>
+        <div id="mainDiv"> 
+            <div id="gridContainer">
+                <p id="questionDisplay">Welcome to my code Quiz! Can you beat the high Score?</p>
+                <p id="finalScoreDisplay"></p>
+                <p id="enterInitials"></p>
+                <textarea id=enterInitialsTextArea></textarea>
+                <button class="button" id="start-quiz">Start Quiz</button>
+                <button class="button" id="answer1"></button>
+                <button class="button" id="answer2"></button>
+                <button class="button" id="answer3"></button>
+                <button class="button" id="answer4"></button>
+                <button class="button" id="submitScore"></button> 
 
-    </div>
+            </div>
+            <div id="answerCorrectWrongGrid"></div>
+            <p id=answerCorrectWrong></p>
+            </div>
 
     </section>
-
-    <script src="/assets/script.js"></script>
-
+    
+    <script src="./assets/script.js"></script>
 </body>
-
 </html>
